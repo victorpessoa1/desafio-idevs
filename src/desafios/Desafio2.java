@@ -5,7 +5,7 @@ public class Desafio2 {
 	public static void main(String[] args) {
 		int s1, s2; 						// Contadores que verificarão se n e n+1 têm o mesmo número de divisores
 		
-		for(int n = 1; n < 10000; n++) {	// laço que passará por cada número de 1 até 10.000)
+		for(int n = 1; n < 10000; n++) {	// laço que passará por cada número de 1 até 10.000
 			s1 = 0; 						// declaro o contador igual a 0 no inicio do laço para 
 			s2 = 0; 						// que ele seja reiniciado a cada ciclo de verificação
 			

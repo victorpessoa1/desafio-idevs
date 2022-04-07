@@ -14,7 +14,7 @@ public class Palavra {
 
 		for(int i = 0; i < p.length; i++) {		// Laço que percorrerá cada letra da palavra, verificará o valor e somará
 			
-			switch (p[i]) {
+			switch (p[i]) { 					// Switch que armazena todas as letras e valores
 				case 'a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U', 'l', 'L', 'n', 'N', 'r', 'R', 's', 'S', 't', 'T':
 					soma = soma + 1;
 					break;
